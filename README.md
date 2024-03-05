@@ -1,0 +1,2 @@
+# WPF_CommunityTookit_IocTest
+测试CommunityToolkit.mvvm的IOC和依赖属性的使用
