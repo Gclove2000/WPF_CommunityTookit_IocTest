@@ -12,8 +12,8 @@
     <UserControl.DataContext>
         <viewModels:TestViewModel />
     </UserControl.DataContext>
-    <Grid>
-        <TextBlock  Text="{Binding Title}"
-                    FontSize="50" />
-    </Grid>
+    <StackPanel Orientation="Horizontal">
+        <TextBlock Text="{Binding SingletonTitle}" />
+        <TextBlock Text="{Binding TransientTitle}" />
+    </StackPanel>
 </UserControl>

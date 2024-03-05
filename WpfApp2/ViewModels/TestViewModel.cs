@@ -7,10 +7,14 @@ using System.Threading.Tasks;
 
 namespace WpfApp2.ViewModels
 {
-    public partial class TestViewModel:ObservableObject
+    public partial class TestViewModel : ObservableObject
     {
         [ObservableProperty]
-        private string title = "默认title";
+        private string singletonTitle = "默认singleton";
+
+        [ObservableProperty]
+        private string transientTitle = "默认transient";
+
         public TestViewModel() { }
     }
 }
